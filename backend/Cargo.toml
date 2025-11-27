@@ -1,0 +1,22 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Web Framework
+axum = "0.7"
+tokio = { version = "1.37", features = ["full"] }
+
+# Serialización/Deserialización de JSON
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Base de Datos (PostgreSQL asíncrono)
+sqlx = { version = "0.7", features = ["runtime-tokio", "postgres", "macros", "time"] }
+
+# Middlewares (CORS)
+tower-http = { version = "0.5", features = ["cors"] }
+
+# Variables de Entorno
+dotenvy = "0.15"
