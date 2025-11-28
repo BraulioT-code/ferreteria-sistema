@@ -6,15 +6,15 @@ Sistema de gestión para ferretería construido con Rust (Backend) y React (Fron
 
 ```mermaid
 graph TD
-    subgraph Project [Ferretería Sistema]
-        subgraph Backend [Backend (Rust/Actix)]
+    subgraph Project ["Ferretería Sistema"]
+        subgraph Backend ["Backend (Rust/Actix)"]
             M[main.rs] --> H[handlers.rs]
             M --> P[products.rs]
             H --> Mod[models.rs]
             P --> Mod
             Mig[Migrations] --> DB[(PostgreSQL)]
         end
-        subgraph Frontend [Frontend (React/Vite)]
+        subgraph Frontend ["Frontend (React/Vite)"]
             App[App.tsx] --> Pages[Pages]
             Pages --> Comp[Components]
             Comp --> Hooks[Hooks]
