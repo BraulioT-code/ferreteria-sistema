@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar carpetas y archivos generados por Rust
+/backend/target/
+/backend/Cargo.lock
+/backend/sqlx-data.json # Archivo de caché de SQLx
+
+# Ignorar archivos del entorno (variables de entorno)
+.env
+
+# Ignorar carpetas y archivos generados por Node/Vite (Frontend)
+/frontend/node_modules
+/frontend/dist
+
+# Ignorar carpetas y archivos de Docker/DB
+.DS_Store

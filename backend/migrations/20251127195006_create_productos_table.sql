@@ -10,5 +10,22 @@ CREATE TABLE productos (
     created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
+CREATE TABLE ventas (
+    id SERIAL PRIMARY KEY,
+    fecha TIMESTAMP NOT NULL DEFAULT NOW(),
+    total NUMERIC(10, 2) NOT NULL
+);
+
+CREATE TABLE itemsventa (
+    id SERIAL PRIMARY KEY,
+    venta_id INTEGER NOT NULL REFERENCES ventas(id) ON DELETE CASCADE,
+    producto_id INTEGER NOT NULL REFERENCES productos(id) ON DELETE RESTRICT,
+    cantidad INTEGER NOT NULL,
+    precio_unitario NUMERIC(10, 2) NOT NULL,
+    subtotal NUMERIC(10, 2) NOT NULL
+);
+
 -- Down
+DROP TABLE itemsventa;
+DROP TABLE ventas;
 DROP TABLE productos;

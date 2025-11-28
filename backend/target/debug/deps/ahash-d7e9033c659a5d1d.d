@@ -1,0 +1,12 @@
+C:\Users\brato\ferreteria-sistema\backend\target\debug\deps\ahash-d7e9033c659a5d1d.d: C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\lib.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\convert.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\fallback_hash.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\operations.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\random_state.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\specialize.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_map.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_set.rs
+
+C:\Users\brato\ferreteria-sistema\backend\target\debug\deps\libahash-d7e9033c659a5d1d.rmeta: C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\lib.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\convert.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\fallback_hash.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\operations.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\random_state.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\specialize.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_map.rs C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_set.rs
+
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\lib.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\convert.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\fallback_hash.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\operations.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\random_state.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\specialize.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_map.rs:
+C:\Users\brato\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ahash-0.8.12\src\hash_set.rs:
